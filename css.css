@@ -17,8 +17,11 @@
 	margin: 20px 20px;
 }
 
-header::after{
+header{
 	z-index: 10;
+}
+
+header::after{
 	content: " ";
 	clear: both;
 	display: block;
